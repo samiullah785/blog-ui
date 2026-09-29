@@ -10,7 +10,7 @@ function Home() {
   return (
     // 2. Added the missing opening fragment tag (<>) to wrap sibling elements
     <>
-      <Header />
+      
       <Hero />
       
       {/* 3. Fixed the duplicate double bracket "<<main" */}
@@ -33,7 +33,7 @@ function Home() {
       </main>
       
       {/* 5. Fixed the unclosed Footer tag */}
-      <Footer />
+      
     </>
   );
 }
