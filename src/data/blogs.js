@@ -36,3 +36,5 @@ export const blogs = [
     image: "https://unsplash.com"
   }
 ];
+
+export default blogs;
